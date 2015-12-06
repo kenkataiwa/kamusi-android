@@ -17,12 +17,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ManenoActivity"
-            android:label="@string/title_activity_maneno" />
-        <activity
-            android:name=".Word"
-            android:label="@string/title_activity_word" />
-        <activity
             android:name=".WordActivity"
             android:label="@string/title_activity_word" />
         <activity
@@ -36,7 +30,7 @@
             android:label="@string/title_activity_idiom" />
         <activity
             android:name=".SearchActivity"
-            android:label="@string/title_activity_search"></activity>
+            android:label="@string/title_activity_search" />
     </application>
 
 </manifest>
