@@ -15,4 +15,5 @@
     <string name="title_activity_idioms">IdiomsActivity</string>
     <string name="title_activity_idiom">IdiomActivity</string>
     <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_blackctivity">Blackctivity</string>
 </resources>
