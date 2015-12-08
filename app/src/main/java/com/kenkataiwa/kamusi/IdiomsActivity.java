@@ -14,14 +14,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-
-public class MainActivity extends AppCompatActivity
+public class IdiomsActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_idioms);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -67,7 +66,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.action_search:
                 Intent searchIntent = new Intent(this, SearchActivity.class);
                 startActivity(searchIntent);
-            return true;
+                return true;
 
             case R.id.action_share:
                 return true;
