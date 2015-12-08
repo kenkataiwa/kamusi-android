@@ -5,24 +5,21 @@
         <item
             android:id="@+id/nav_words"
             android:icon="@drawable/ic_menu_words"
-            android:title="Maneno" />
+            android:title="@string/title_activity_words" />
         <item
             android:id="@+id/nav_idioms"
             android:icon="@drawable/ic_menu_idioms"
-            android:title="Nahau" />
-    </group>
+            android:title="@string/title_activity_idioms" />
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Sambaza" />
-            <item
-                android:id="@+id/nav_about"
-                android:icon="@drawable/ic_menu_about"
-                android:title="Kuhusu" />
-        </menu>
-    </item>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/title_activity_share" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/title_activity_about"
+            />
+    </group>
 
 </menu>
