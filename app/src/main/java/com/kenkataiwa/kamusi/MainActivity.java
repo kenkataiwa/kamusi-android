@@ -54,35 +54,39 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_share) {
+        switch(item.getItemId()) {
+            case R.id.action_search:
+                // User chose the "Search"
             return true;
+
+            case R.id.action_share:
+                return true;
+
+
+            case R.id.action_about:
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
         }
 
-        return super.onOptionsItemSelected(item);
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
 
-        if (id == R.id.nav_words) {
-            // Todo: Handle the words action
-
-        } else if (id == R.id.nav_idioms) {
-            // Todo: Handle the idioms action
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_about) {
-
+        switch(item.getItemId()) {
+            case R.id.nav_words:
+                // Todo: Handle the words action
+                break;
+            case R.id.nav_idioms:
+                // Todo: Handle the idioms action
+                break;
+            case R.id.nav_share:
+                break;
+            case R.id.nav_about:
+                break;
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
