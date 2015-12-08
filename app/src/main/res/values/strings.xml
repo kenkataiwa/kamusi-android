@@ -1,19 +1,14 @@
 <resources>
     <string name="app_name">Kamusi</string>
 
-    <string name="title_section1">Maneno</string>
-    <string name="title_section2">Nahau</string>
-
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_search">Search</string>
+    <string name="action_search">Tafuta</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_maneno">ManenoActivity</string>
-    <string name="title_activity_word">WordActivity</string>
-    <string name="title_activity_words">WordsActivity</string>
-    <string name="title_activity_idioms">IdiomsActivity</string>
-    <string name="title_activity_idiom">IdiomActivity</string>
-    <string name="title_activity_search">SearchActivity</string>
-    <string name="title_activity_blackctivity">Blackctivity</string>
+    <string name="title_activity_word">Neno</string>
+    <string name="title_activity_words">Maneno</string>
+    <string name="title_activity_idioms">Nahau</string>
+    <string name="title_activity_idiom">Nahau</string>
+    <string name="title_activity_search">Tafuta</string>
 </resources>

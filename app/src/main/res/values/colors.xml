@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-     <drawable name="kamusi_main_color">#CA6924</drawable>
-     <color name="colorPrimary">#3F51B5</color>
-     <color name="colorPrimaryDark">#303F9F</color>
-     <color name="colorAccent">#FF4081</color>
+     <color name="colorPrimary">#CA6924</color>
+     <color name="colorPrimaryDark">#B1500B</color>
+     <color name="colorAccent">#2196F3</color>
 </resources>
