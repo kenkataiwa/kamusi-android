@@ -108,10 +108,9 @@ public class MainActivity extends AppCompatActivity
                 Intent idiomsIntent = new Intent(this, IdiomsActivity.class);
                 startActivity(idiomsIntent);
                 break;
-            case R.id.nav_share:
-                break;
-            case R.id.nav_about:
-                break;
+
+//            case R.id.nav_about:
+//                break;
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
