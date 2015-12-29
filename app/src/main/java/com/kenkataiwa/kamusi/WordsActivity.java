@@ -26,6 +26,7 @@ public class WordsActivity extends MainActivity {
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        navigationView.setCheckedItem(R.id.nav_words);
     }
 
     public boolean wordSelectListener(View v) {

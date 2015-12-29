@@ -4,13 +4,12 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_words"
-            android:icon="@drawable/ic_menu_words"
+            android:icon="@drawable/checkbox_multiple_blank_outline"
             android:title="@string/title_activity_words" />
         <item
             android:id="@+id/nav_idioms"
-            android:icon="@drawable/ic_menu_idioms"
+            android:icon="@drawable/checkbox_multiple_blank_outline"
             android:title="@string/title_activity_idioms" />
-
     </group>
 
 </menu>

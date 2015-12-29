@@ -67,10 +67,14 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
-            case R.id.action_search:
-            return true;
 
             case R.id.action_share:
+                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                sharingIntent.setType("text/plain");
+                String shareBody = "http://kamusi.kenkataiwa.com/android";
+                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,"subject");
+                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+                startActivity(Intent.createChooser(sharingIntent, "Share via"));
                 return true;
 
             case R.id.action_about:
