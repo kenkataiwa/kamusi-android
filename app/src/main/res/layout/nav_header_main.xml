@@ -13,12 +13,13 @@
 
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="Kamusi"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="21dp"
+        android:onClick="homeNavigationListener"
         android:textStyle="normal" />
 
 </LinearLayout>
