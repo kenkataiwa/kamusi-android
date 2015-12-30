@@ -21,12 +21,14 @@
         android:text="Maneno"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <RelativeLayout
+    <ListView
+        android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="500dp"
-        android:layout_gravity="left|center_vertical">
-    </RelativeLayout>
+        android:orientation="vertical"
+        android:minHeight="300dp">
+
+    </ListView>
 
 
 </LinearLayout>
