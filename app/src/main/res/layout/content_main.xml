@@ -8,10 +8,6 @@
     tools:context="com.kenkataiwa.kamusi.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbars="none">
 
     <LinearLayout
         android:orientation="vertical"
@@ -33,14 +29,6 @@
             android:text="Maneno yaliyoongezwa:"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <ListView
-            android:id="@+id/wordsList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:minHeight="300dp">
-
-        </ListView>
 
         <TextView
             android:id="@+id/textView3"
@@ -49,19 +37,7 @@
             android:text="Nahau ziliyoongezwa:"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <ListView
-            android:id="@+id/idiomsList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:minHeight="300dp">
-
-        </ListView>
-
     </LinearLayout>
-
-
-    </ScrollView>
 
 
 </LinearLayout>
