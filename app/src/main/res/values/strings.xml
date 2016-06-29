@@ -16,9 +16,8 @@
 
     <string name="search_hint">Tafuta</string>
 
-
-
-        <string name="intro">This sample illustrates how links can be added to a TextView.
+    <!-- Todo: Remove placeholder text -->
+    <string name="intro">This sample illustrates how links can be added to a TextView.
     \nThis can be done either automatically by setting the <i>autoLink</i> property
     or explicitly.</string>
     <string name="link_text_auto"><b>text_auto_linkify: Various kinds
