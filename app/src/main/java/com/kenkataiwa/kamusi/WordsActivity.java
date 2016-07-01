@@ -61,10 +61,11 @@ public class WordsActivity extends MainActivity {
                 this, R.layout.list_item_word, R.id.listItemWordTextView, wordsList
         );
         wordsListView.setAdapter(wordsAdapter);
-        // Todo: set on click listener
 
-        FetchWordsTask wordsTask = new FetchWordsTask();
-        wordsTask.execute("94043");
+        // Todo: set on click listener
+//        wordsListView.setOnItemClickListener(new ArrayAdapter<>().cre);
+
+        updateWords();
     }
 
 //    public boolean wordSelectListener(View v) {
@@ -73,6 +74,11 @@ public class WordsActivity extends MainActivity {
 //        startActivity(wordIntent);
 //        return true;
 //    }
+
+    public void updateWords() {
+        FetchWordsTask wordsTask = new FetchWordsTask();
+        wordsTask.execute("94043");
+    }
 
     public class FetchWordsTask extends AsyncTask<String, Void, String[]> {
 
